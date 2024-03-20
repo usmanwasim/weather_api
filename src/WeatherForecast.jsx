@@ -48,7 +48,7 @@ export const WeatherForecast = () => {
         }}
       >
         <img
-          src="/public/cloudy.png"
+          src="/cloudy.png"
           alt=""
           style={{ width: "50px", height: "50px" }}
         />{" "}
