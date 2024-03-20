@@ -158,7 +158,7 @@ export const WeatherForecast = () => {
             <Stack direction="row" justifyContent="space-between">
               <Typography fontSize="16px">Wind</Typography>
               <Typography fontSize="16px">
-                {weatherData.wind.speed * 3.6} km/h
+                {(+weatherData.wind.speed * 3.6).toFixed(2)} km/h
               </Typography>
             </Stack>
             <Stack direction="row" justifyContent="space-between">
@@ -170,7 +170,7 @@ export const WeatherForecast = () => {
             <Stack direction="row" justifyContent="space-between">
               <Typography fontSize="16px">Pressure</Typography>
               <Typography fontSize="16px">
-                {weatherData.main.pressure} hPa
+                {weatherData.main.pressure} Pa
               </Typography>
             </Stack>
           </Stack>
