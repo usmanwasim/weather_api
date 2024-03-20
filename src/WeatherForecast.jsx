@@ -36,13 +36,18 @@ export const WeatherForecast = () => {
     <>
       <Typography
         sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
           textAlign: "center",
+          gap: { xs: 1, sm: 2 },
           my: { xs: 2, sm: 3 },
           color: "#A020F0",
           fontWeight: "700",
           fontSize: { xs: "24px", sm: "32px" },
         }}
       >
+        <img src="/public/cloudy.png" alt="" style={{ width: "50px" }} />{" "}
         Weather Forecast
       </Typography>
       <Box
@@ -54,6 +59,7 @@ export const WeatherForecast = () => {
           borderRadius: "10px",
           width: { xs: "90%", sm: "50%" },
           mx: "auto",
+          my: { xs: 4, sm: 6, md: 8 },
         }}
       >
         <InputBase
