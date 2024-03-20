@@ -47,7 +47,11 @@ export const WeatherForecast = () => {
           fontSize: { xs: "24px", sm: "32px" },
         }}
       >
-        <img src="/public/cloudy.png" alt="" style={{ width: "50px" }} />{" "}
+        <img
+          src="/public/cloudy.png"
+          alt=""
+          style={{ width: "50px", height: "50px" }}
+        />{" "}
         Weather Forecast
       </Typography>
       <Box
